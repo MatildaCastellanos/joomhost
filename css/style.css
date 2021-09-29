@@ -3,18 +3,16 @@
 }
 
 body{
-<<<<<<< HEAD
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     line-height: 24px;
-=======
-
->>>>>>> ceea880fc28e074224a3a89a717c3dbeb38144ad
+    color: #4a6385;
 }
 
 a{
     color: black;
     text-decoration: none;
+    display: inline-block;
 }
 
 .container{
@@ -47,7 +45,6 @@ a{
     color: 2f3f54;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;    
-<<<<<<< HEAD
 }
 
 .top{
@@ -63,9 +60,6 @@ a{
     margin-right: 35px;
     color: white;
 }
-.top-info__subtitle {
-
-}
 .top-info__title {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -74,24 +68,78 @@ a{
     text-transform: uppercase;
 }
 .top-info__descr {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 35px;
+}
+.top-info__descr span {
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    font-weight: 400;
 }
 .top-info__list {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.top-info__list li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 24px;
+}
+.top-info__list li::before{
+    content: "";
+    background-image: url(../img/list-icon.png);
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .top-info__btn {
-}
-.top-info__btn-descr {
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 13px 44px;
+    border-radius: 30px;
+    margin-bottom: 15px;
 }
 .top-imag {
 }
 .top-imag__box {
+    position: relative;
 }
 .top-imag__circle {
+    width: 230px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: 14px;
+    color: #212121;
+    position: absolute;
+    top: -65px;
+    right: -60px;
 }
 .top-imag__title {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 140px;
 }
 .top-imag__price {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 .top-imag__date {
-=======
->>>>>>> ceea880fc28e074224a3a89a717c3dbeb38144ad
+    text-align: right;
+    width: 140px;
 }
