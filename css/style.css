@@ -3,9 +3,13 @@
 }
 
 body{
+<<<<<<< HEAD
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     line-height: 24px;
+=======
+
+>>>>>>> ceea880fc28e074224a3a89a717c3dbeb38144ad
 }
 
 a{
@@ -43,6 +47,7 @@ a{
     color: 2f3f54;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;    
+<<<<<<< HEAD
 }
 
 .top{
@@ -87,4 +92,6 @@ a{
 .top-imag__price {
 }
 .top-imag__date {
+=======
+>>>>>>> ceea880fc28e074224a3a89a717c3dbeb38144ad
 }
