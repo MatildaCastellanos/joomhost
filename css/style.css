@@ -333,11 +333,12 @@ cursor: pointer;
 .reviews-slider{
     margin-top: 160px;
 }
-.reviews-slider slick-list{
+.reviews-slider .slick-list{
     margin: 0 -50px;
 }
-.reviews-slider slick-track{
+.reviews-slider .slick-slide{
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .reviews-box{
@@ -348,7 +349,7 @@ cursor: pointer;
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    
 }
 .reviews-slider .slick-dots li{
     margin: 0 8px;
@@ -367,9 +368,7 @@ cursor: pointer;
     background-color: #2575e7;
     outline: none;
 }
-.reviews-slider__item{
-    
-}
+
 .reviews-box__img{
     background-color: #2575e7;
     width: 190px;
@@ -396,4 +395,11 @@ cursor: pointer;
 color: #2575e7;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
+}
+.companies {
+    padding: 105px 0;
+}
+.companies-logo {
+    display: flex;
+    justify-content: center;
 }
