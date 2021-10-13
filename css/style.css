@@ -32,6 +32,15 @@ a{
     align-items: center;
     height: 87px;
 }
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+.btn__menu div{
+height: 5px;
+background-color: #000;
+margin-bottom: 5px;
+}
 
 .menu__list{
     display: flex;
@@ -403,3 +412,8 @@ font-weight: 700;
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
